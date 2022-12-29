@@ -32,8 +32,8 @@ github_username:  giulioporcu
 # Build settings
 theme: pages-themes/midnight@v0.2.0
 plugins:
-  - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
