@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+- name: Knowledge Base
+  link: /KB
+- name: About
+  link: /About

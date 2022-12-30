@@ -1,0 +1,36 @@
+<head>
+   <script src="/assets/javascript/theme.js"></script>
+</head>
+
+<hr class="solid">
+
+<div class="toggle-container">
+   <button class="theme-btn light" onclick="setTheme('light')">
+      <img src="/assets/images/lightsun.png" />
+   </button>
+
+   <button class="theme-btn dark" onclick="setTheme('dark')">
+      <img src="/assets/images/darkmoon.png" />
+   </button>
+</div>
+
+{% if page.layout != 'index' %}
+{% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+{% if posts.size == 0 %}
+{% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+{% endif %}
+{% if posts.size > 1 %}
+<footer>
+   <em>{{ site.data.global_translations[post.lang].readPageInDifferentLanguage }} :</em>
+   <ul>
+      {% for post in posts %}
+      <li>
+         <a href="{{ site.base-url }}{{ post.url }}" title="View in {{ post.lang }}">
+            {{ site.data.global_translations[post.lang].label }}
+         </a>
+      </li>
+      {% endfor %}
+   </ul>
+</footer>
+{% endif %}
+{% endif %}
