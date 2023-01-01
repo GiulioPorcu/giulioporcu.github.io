@@ -1,51 +1,18 @@
-:root.light {
+:root {
     --body-background: #ccc;
     --body-text-color: #222;
     --separator-color: #ddd;
-}
-
-:root.dark {
-    --body-background: #303030;
-    --body-text-color: #bbb;
-    --separator-color: #444;
 }
 
 hr.solid {
     border: 1px solid var(--separator-color);
 }
 
-.theme-btn.light {
-    display: none;
-}
-
-.dark .theme-btn.light {
-    display: block;
-}
-
-.dark .theme-btn.dark {
-    display: none;
-}
-
 body {
-    background-color: var(--body-background);
+    background: linear-gradient(to bottom right, rgb(30, 115, 30), rgb(165, 165, 165));
     color: var(--body-text-color);
+    min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.theme-btn {
-    width: 3em;
-    height: 3em;
-    padding: 0.5em;
-    border-radius: 50%;
-    cursor: pointer;
-    border: none;
-    background-color: transparent;
-}
-
-.theme-btn img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
 }
 
 .navigation {
@@ -53,6 +20,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    display: flex;
     background-color: rgb(133, 133, 133);
 }
 
