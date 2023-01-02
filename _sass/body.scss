@@ -1,0 +1,14 @@
+body {
+    background: var(--body-background-color);
+    color: var(--body-text-color);
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+    background-image: linear-gradient(to bottom right, var(--body-background-gradient1-color), var(--body-background-gradient2-color));
+}
+
+.content {
+    margin: 3% 0;
+    padding: 0px 10px;
+}

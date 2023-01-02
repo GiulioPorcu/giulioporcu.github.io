@@ -1,21 +1,25 @@
-:root { --default-font-family: Arial, Helvetica, sans-serif; --body-background-gradient1-color: #2C3639; --body-background-gradient2-color: #2Cb639; --body-text-color: #DCD7C9; --highlight-color: #61876E; }
-
-hr.solid { border: 1px solid var(--body-text-color); }
-
-body { background: var(--body-background-color); color: var(--body-text-color); font-family: var(--default-font-family); margin-left: 4%; margin-right: 4%; margin-top: 2%; background-image: linear-gradient(to bottom right, var(--body-background-gradient1-color), var(--body-background-gradient2-color)); }
-
-.content { margin: 2% 0; padding: 0px 10px; }
+@font-face { font-family: 'Montserrat Light'; src: url("/assets/fonts/Montserrat-Light.ttf") format("truetype"); }
+@font-face { font-family: 'Montserrat'; src: url("/assets/fonts/Montserrat-Regular.ttf") format("truetype"); }
+:root { --body-background-gradient1-color: #FFAE63; --body-background-gradient2-color: #B17564; --body-text-color: #524439; --highlight-color: #C35355; }
 
 .glass { background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)); backdrop-filter: blur(10px); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.18); box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); }
 
-header ul { display: inline; float: right; list-style-type: none; margin-block-start: 0em; margin-block-end: 0em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 0px; }
-
-header img { display: inline; width: 32px; height: 32px; padding: 5px; }
-
-header li { display: inline-block; padding: 0px 20px; }
-
-header a { display: inline-block; text-align: center; padding: 14px 4px; font-size: 18px; }
-
-a { color: var(--body-text-color); font-weight: bold; text-decoration: none; }
+a { color: var(--body-text-color); text-decoration: none; }
 
 a:hover { color: var(--highlight-color); }
+
+header { height: 50px; font-family: 'Montserrat Light', Helvetica, sans-serif; font-size: 18px; }
+
+header ul { float: right; list-style-type: none; margin-block-start: 0em; margin-block-end: 0em; margin-inline-start: 0px; margin-inline-end: 0px; padding-inline-start: 0px; }
+
+header span { display: inline-block; text-align: left; padding: 14px 14px; }
+
+header li { display: inline-block; padding: 0px 15px; }
+
+header a { display: inline-block; text-align: center; padding: 14px 4px; }
+
+body { background: var(--body-background-color); color: var(--body-text-color); font-family: 'Montserrat', Helvetica, sans-serif; margin-left: 4%; margin-right: 4%; margin-top: 2%; background-image: linear-gradient(to bottom right, var(--body-background-gradient1-color), var(--body-background-gradient2-color)); }
+
+.content { margin: 3% 0; padding: 0px 10px; }
+
+footer img { width: 32px; height: 32px; float: left; }

@@ -1,8 +1,7 @@
-title: Giulio Porcu's Corner
+title: Giulio Porcu
+name: Giulio Porcu
 
 description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This website is a hobby project of mine.
 
-github_username:  giulioporcu
+github_url:  https://github.com/GiulioPorcu
