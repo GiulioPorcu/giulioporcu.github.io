@@ -1,4 +1,13 @@
-<div>
-   <h1>Personal Web Page</h1>
-   {% include navigation.html %}
-</div>
+<header class="glass">
+    <img src="/assets/images/profile.png" />
+
+    <ul >
+        {% for item in site.data.navigation %}
+        <li>
+            <a href="{{ item.link }}" class="navigation">
+                {{ item.name }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</header>

@@ -1,14 +1,15 @@
 <!doctype html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
-  </head>
-  <body>
-  {% include header.html %}
-  <br />
-  {{ content }}
-  {% include footer.html %}
-  </body>
+</head>
+<body>
+    {% include header.html %}
+    <div class="glass content">
+        {{ content }}
+    </div>
+    {% include footer.html %}
+</body>
 </html>

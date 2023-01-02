@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Knowledge Base
-permalink: /kb/
+title: Web Tools
+permalink: /webtools/
 ---
 <div>
   {% for post in site.posts %}

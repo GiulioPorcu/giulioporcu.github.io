@@ -1,6 +1,10 @@
 - name: Home
   link: /
-- name: Knowledge Base
-  link: /KB
+- name: Resources
+  link: /resources
+- name: Web Tools
+  link: /webtools
+- name: Downloads
+  link: /downloads
 - name: About
-  link: /About
+  link: /about
