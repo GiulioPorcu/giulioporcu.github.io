@@ -31,4 +31,4 @@ in either English or German I'll be happy to help. See the [About]({{ site.data.
 ---
 
 I hope you found what you came here for and I wish you all the best.
-##### {{ site.data.info.author }}, 2023-01-08
+##### {{ site.data.info.author }}, 2023-JAN-08
