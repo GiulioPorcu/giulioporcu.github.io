@@ -1,8 +1,12 @@
-<header class="glass">
-    <span>{{ site.data.info.title }}</span>
-    <ul>
+<header class="glass header">
+    <div class="page-title">
+        <i class="fa-solid fa-code page-title-image"></i>
+        <a class="page-title-text" href="/">{{ site.data.info.title }}</a>
+    </div>
+
+    <ul class="navigation">
         {% for item in site.data.navigation %}
-        <li>
+        <li class="navigation-item">
             <a href="{{ item.link }}">
                 {{ item.name }}
             </a>

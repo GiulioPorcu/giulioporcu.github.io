@@ -12,8 +12,10 @@
 // Global variables
 :root {
     --default-text-color: #AD8E70;
+    --default-link-color: #FFE9B1;
+    --default-highlight-color: #7743DB;
     --default-font-family: 'Montserrat', Helvetica, sans-serif;
-    --default-highlight-color: #3B3486;
+    --default-title-fontsize: 18px;
     --body-background-main: #101010;
     --body-background-pattern: #0b0814;
 }
@@ -24,9 +26,15 @@ html {
 }
 
 a {
-    color: var(--body-text-color);
+    color: var(--default-link-color);
     text-decoration: none;
-    font-weight: bold;
+}
+
+hr {
+    background-color: var(--default-text-color);
+    opacity: 0.1;
+    height: 1px;
+    border: none;
 }
 
 a:hover {
@@ -40,4 +48,9 @@ a:hover {
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+svg {
+    fill: var(--default-text-color);
+    color: var(--default-text-color);
 }

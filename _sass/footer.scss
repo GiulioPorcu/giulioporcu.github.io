@@ -1,8 +1,13 @@
-footer {
+.footer {
+    padding: 0 2%;
 }
 
-footer img {
+.footer-logo {
     width: 32px;
     height: 32px;
     float: left;
+}
+
+.logo-github {
+    fill: var(--default-text-color);
 }

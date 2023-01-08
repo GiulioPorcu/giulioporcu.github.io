@@ -1,10 +1,24 @@
-header {
-    height: 50px;
-    font-family: 'Montserrat Light', Helvetica, sans-serif;
-    font-size: 18px;
+.header {
+    height: 55px;
+    font-family: var(--default-font-family);
+    font-size: var(--default-title-fontsize);
 }
 
-header ul {
+.page-title {
+    display: inline-block;
+    text-align: left;
+}
+
+.page-title-image {
+    padding: 18px 18px;
+}
+
+.page-title-text {
+    padding: 18px 0px;
+    font-weight: bolder;
+}
+
+.navigation {
     float: right;
     list-style-type: none;
     margin-block-start: 0em;
@@ -14,19 +28,8 @@ header ul {
     padding-inline-start: 0px;
 }
 
-header span {
+.navigation-item {
     display: inline-block;
-    text-align: left;
-    padding: 14px 14px;
-}
-
-header li {
-    display: inline-block;
-    padding: 0px 15px;
-}
-
-header a {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 4px;
+    padding: 18px 15px;
+    font-size: var(--default-title-fontsize);
 }
