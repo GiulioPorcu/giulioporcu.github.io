@@ -26,7 +26,7 @@ you'll be redirected to a web application. Here's an overview of all my applicat
 
 In addition to programming I wanted to practice my written English as this page will be available in English only. I thought about creating a web page
 that supports my endeavor of developing a better way of writing about topics that interest me and then this project came to be. If you have specific questions
-in either English or German I'll be happy to help. See the [About]({{ site.data.navigation[2].link }}) page for more information.
+in either English or German I'll be happy to help. See the [About]({{ site.data.navigation[2].link }}) page or the footer for more information.
 
 ---
 

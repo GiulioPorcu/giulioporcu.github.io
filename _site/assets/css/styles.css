@@ -1,10 +1,10 @@
 @font-face { font-family: 'Montserrat Light'; src: url("/assets/fonts/Montserrat-Light.ttf") format("truetype"); }
 @font-face { font-family: 'Montserrat'; src: url("/assets/fonts/Montserrat-Regular.ttf") format("truetype"); }
-:root { --default-text-color: #AD8E70; --default-link-color: #FFE9B1; --default-highlight-color: #6d4ecd; --default-font-family: 'Montserrat', Helvetica, sans-serif; --default-header-fontsize: 18px; --default-footer-fontsize: 12px; --body-background-main: #101010; --body-background-pattern: #0b0814; }
+:root { --default-text-color: #AD8E70; --default-link-color: #FFE9B1; --default-highlight-color: #6d4ecd; --default-font-family: 'Montserrat', Helvetica, sans-serif; --default-font-size: 15px; --default-header-fontsize: 18px; --default-footer-fontsize: 13px; --body-background-main: #101010; --body-background-pattern: #0b0814; }
 
 html { height: 100%; }
 
-body { color: var(--default-text-color); font-family: var(--default-font-family); margin: 2% 4%; background-image: radial-gradient(var(--body-background-pattern) 4px, transparent 4px), radial-gradient(var(--body-background-pattern) 5px, transparent 5px); background-size: 12px 12px; background-position: 0 0, 6px 6px; background-color: var(--body-background-main); }
+body { color: var(--default-text-color); font-family: var(--default-font-family); font-size: var(--default-font-size); margin: 2% 4%; background-image: radial-gradient(var(--body-background-pattern) 4px, transparent 4px), radial-gradient(var(--body-background-pattern) 5px, transparent 5px); background-size: 12px 12px; background-position: 0 0, 6px 6px; background-color: var(--body-background-main); }
 
 a { color: var(--default-link-color); text-decoration: none; }
 
@@ -27,6 +27,8 @@ hr { background-color: var(--default-text-color); opacity: 0.1; height: 1px; bor
 .navigation-item { display: inline-block; padding: 18px 15px; font-size: var(--default-header-fontsize); }
 
 .footer { padding: 15px 2%; font-family: var(--default-font-family); font-size: var(--default-footer-fontsize); }
+
+.footer-socials-icon { width: 24px; }
 
 .error-container { margin: 10px auto; text-align: center; }
 

@@ -15,8 +15,9 @@
     --default-link-color: #FFE9B1;
     --default-highlight-color: #6d4ecd;
     --default-font-family: 'Montserrat', Helvetica, sans-serif;
+    --default-font-size: 15px;
     --default-header-fontsize: 18px;
-    --default-footer-fontsize: 12px;
+    --default-footer-fontsize: 13px;
     --body-background-main: #101010;
     --body-background-pattern: #0b0814;
 }
@@ -29,6 +30,7 @@ html {
 body {
     color: var(--default-text-color);
     font-family: var(--default-font-family);
+    font-size: var(--default-font-size);
     margin: 2% 4%;
     background-image: radial-gradient(var(--body-background-pattern) 4px, transparent 4px), radial-gradient(var(--body-background-pattern) 5px, transparent 5px);
     background-size: 12px 12px;
@@ -100,6 +102,10 @@ hr {
     padding: 15px 2%;
     font-family: var(--default-font-family);
     font-size: var(--default-footer-fontsize);
+}
+
+.footer-socials-icon {
+    width: 24px;
 }
 
 .error-container {
