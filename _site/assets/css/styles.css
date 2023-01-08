@@ -1,10 +1,10 @@
 @font-face { font-family: 'Montserrat Light'; src: url("/assets/fonts/Montserrat-Light.ttf") format("truetype"); }
 @font-face { font-family: 'Montserrat'; src: url("/assets/fonts/Montserrat-Regular.ttf") format("truetype"); }
-:root { --default-text-color: #AD8E70; --default-link-color: #FFE9B1; --default-highlight-color: #7743DB; --default-font-family: 'Montserrat', Helvetica, sans-serif; --default-title-fontsize: 18px; --body-background-main: #101010; --body-background-pattern: #0b0814; }
+:root { --default-text-color: #AD8E70; --default-link-color: #FFE9B1; --default-highlight-color: #6d4ecd; --default-font-family: 'Montserrat', Helvetica, sans-serif; --default-title-fontsize: 18px; --body-background-main: #101010; --body-background-pattern: #0b0814; }
 
 html { height: 100%; }
 
-body { color: var(--default-text-color); font-family: var(--default-font-family); margin: 2% 4%; background-image: radial-gradient(var(--body-background-pattern) 3px, transparent 3px), radial-gradient(var(--body-background-pattern) 3px, transparent 3px); background-size: 12px 12px; background-position: 0 0, 6px 6px; background-color: var(--body-background-main); }
+body { color: var(--default-text-color); font-family: var(--default-font-family); margin: 2% 4%; background-image: radial-gradient(var(--body-background-pattern) 4px, transparent 4px), radial-gradient(var(--body-background-pattern) 5px, transparent 5px); background-size: 12px 12px; background-position: 0 0, 6px 6px; background-color: var(--body-background-main); }
 
 a { color: var(--default-link-color); text-decoration: none; }
 

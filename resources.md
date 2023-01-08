@@ -4,14 +4,17 @@ permalink: /resources/
 title: Giulio Porcu - Resources
 ---
 <div>
+  <h2>All available resource pages</h2>
+  <hr />
+  <ul>
   {% for post in site.posts %}
       {% if post.category == "resources" %}
-          <h2>
-            <a href="{{ post.url }}">
-              {{ post.title }}
-            </a>
-          </h2>
-          {{ post.excerpt }}
+        <li>
+            <h3>
+             <a href="{{ post.url }}" >{{ post.title }}</a>
+            </h3>
+         </li>
       {% endif %}
   {% endfor %}
+  </ul>
 </div>

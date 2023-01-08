@@ -13,7 +13,7 @@ languages I am confident with, and an area where my projects and web application
 ---
 
 Under [Resources]({{ site.data.navigation[0].link }}) you can find a couple of posts that explain how to get started in the world of programming. I will talk about each topic
-in detail with plenty of examples. The following areas are available:
+in detail with plenty of examples. The following categories are available:
 
 - None yet
 
