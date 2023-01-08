@@ -1,13 +1,13 @@
 ﻿---
 layout: page
 permalink: /
-title: {{ site.data.info.author }}
+title: Giulio Porcu - Home
 ---
 
 # Welcome to my website
 
 This webpage was intended as an online portfolio of mine and a practice environment for me to develop the skills needed to work 
-with web applications. I intend to populate this web page with beginner and intermediate materials to start developing in programming 
+with web applications. I intend to populate this web page with materials to start developing in programming 
 languages I am confident with, and an area where my projects and web applications can be found, downloaded or run.
 
 ---

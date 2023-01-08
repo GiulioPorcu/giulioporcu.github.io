@@ -4,15 +4,15 @@
 
 html { height: 100%; }
 
-a { color: var(--default-link-color); text-decoration: none; }
+body { color: var(--default-text-color); font-family: var(--default-font-family); margin: 2% 4%; background-image: radial-gradient(var(--body-background-pattern) 3px, transparent 3px), radial-gradient(var(--body-background-pattern) 3px, transparent 3px); background-size: 12px 12px; background-position: 0 0, 6px 6px; background-color: var(--body-background-main); }
 
-hr { background-color: var(--default-text-color); opacity: 0.1; height: 1px; border: none; }
+a { color: var(--default-link-color); text-decoration: none; }
 
 a:hover { color: var(--default-highlight-color); }
 
-.glass { background: linear-gradient(135deg, rgba(8, 8, 8, 0.2), rgba(255, 255, 255, 0)); backdrop-filter: blur(10px); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.18); box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); }
+hr { background-color: var(--default-text-color); opacity: 0.1; height: 1px; border: none; }
 
-svg { fill: var(--default-text-color); color: var(--default-text-color); }
+.glass { background: linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)); backdrop-filter: blur(2px); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.18); box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); }
 
 .header { height: 55px; font-family: var(--default-font-family); font-size: var(--default-title-fontsize); }
 
@@ -26,16 +26,12 @@ svg { fill: var(--default-text-color); color: var(--default-text-color); }
 
 .navigation-item { display: inline-block; padding: 18px 15px; font-size: var(--default-title-fontsize); }
 
-body { color: var(--default-text-color); font-family: var(--default-font-family); margin: 2% 4%; background-image: radial-gradient(var(--body-background-pattern) 3px, transparent 3px), radial-gradient(var(--body-background-pattern) 3px, transparent 3px); background-size: 12px 12px; background-position: 0 0, 6px 6px; background-color: var(--body-background-main); }
-
-.content { margin: 2% 2%; line-height: 1.75; padding: 0 2%; }
-
 .footer { padding: 0 2%; }
 
 .footer-logo { width: 32px; height: 32px; float: left; }
 
-.logo-github { fill: var(--default-text-color); }
-
 .error-container { margin: 10px auto; text-align: center; }
 
 .error-title { margin: 30px 0; font-size: 4em; }
+
+.content { margin: 2% 2%; line-height: 1.75; padding: 0 2%; }

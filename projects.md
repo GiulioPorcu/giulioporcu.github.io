@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Projects
 permalink: /projects/
+title: Giulio Porcu - Projects
 ---
 <div>
   {% for post in site.posts %}
-      {% if post.tag == "project" %}
+      {% if post.category == "projects" %}
           <h2>
             <a href="{{ post.url }}">
               {{ post.title }}

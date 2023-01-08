@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Resources
 permalink: /resources/
+title: Giulio Porcu - Resources
 ---
 <div>
   {% for post in site.posts %}
-      {% if post.tag == "resource" %}
+      {% if post.category == "resources" %}
           <h2>
             <a href="{{ post.url }}">
               {{ post.title }}
