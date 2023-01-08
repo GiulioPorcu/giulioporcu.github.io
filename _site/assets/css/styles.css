@@ -1,12 +1,14 @@
 @font-face { font-family: 'Montserrat Light'; src: url("/assets/fonts/Montserrat-Light.ttf") format("truetype"); }
 @font-face { font-family: 'Montserrat'; src: url("/assets/fonts/Montserrat-Regular.ttf") format("truetype"); }
-:root { --body-background-gradient1-color: #FFAE63; --body-background-gradient2-color: #B17564; --body-text-color: #524439; --highlight-color: #C35355; }
+:root { --default-text-color: #AD8E70; --default-font-family: 'Montserrat', Helvetica, sans-serif; --default-highlight-color: #3B3486; --body-background-main: #101010; --body-background-pattern: #0b0814; }
 
-.glass { background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)); backdrop-filter: blur(10px); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.18); box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); }
+html { height: 100%; }
 
-a { color: var(--body-text-color); text-decoration: none; }
+a { color: var(--body-text-color); text-decoration: none; font-weight: bold; }
 
-a:hover { color: var(--highlight-color); }
+a:hover { color: var(--default-highlight-color); }
+
+.glass { background: linear-gradient(135deg, rgba(8, 8, 8, 0.2), rgba(255, 255, 255, 0)); backdrop-filter: blur(10px); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.18); box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); }
 
 header { height: 50px; font-family: 'Montserrat Light', Helvetica, sans-serif; font-size: 18px; }
 
@@ -18,8 +20,8 @@ header li { display: inline-block; padding: 0px 15px; }
 
 header a { display: inline-block; text-align: center; padding: 14px 4px; }
 
-body { background: var(--body-background-color); color: var(--body-text-color); font-family: 'Montserrat', Helvetica, sans-serif; margin-left: 4%; margin-right: 4%; margin-top: 2%; background-image: linear-gradient(to bottom right, var(--body-background-gradient1-color), var(--body-background-gradient2-color)); }
+body { color: var(--default-text-color); font-family: var(--default-font-family); margin: 2% 4%; background-image: radial-gradient(var(--body-background-pattern) 3px, transparent 3px), radial-gradient(var(--body-background-pattern) 3px, transparent 3px); background-size: 12px 12px; background-position: 0 0, 6px 6px; background-color: var(--body-background-main); }
 
-.content { margin: 3% 0; padding: 0px 10px; }
+.content { margin: 2% 2%; }
 
 footer img { width: 32px; height: 32px; float: left; }

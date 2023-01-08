@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Web Tools
-permalink: /webtools/
+title: Projects
+permalink: /projects/
 ---
 <div>
   {% for post in site.posts %}

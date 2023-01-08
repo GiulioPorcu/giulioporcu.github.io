@@ -1,14 +1,15 @@
 body {
-    background: var(--body-background-color);
-    color: var(--body-text-color);
-    font-family: 'Montserrat', Helvetica, sans-serif;
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-top: 2%;
-    background-image: linear-gradient(to bottom right, var(--body-background-gradient1-color), var(--body-background-gradient2-color));
+    color: var(--default-text-color);
+    font-family: var(--default-font-family);
+    margin: 2% 4%;
+    background-image: 
+        radial-gradient(var(--body-background-pattern) 3px, transparent 3px), 
+        radial-gradient(var(--body-background-pattern) 3px, transparent 3px);
+    background-size: 12px 12px;
+    background-position: 0 0, 6px 6px;
+    background-color: var(--body-background-main);
 }
 
 .content {
-    margin: 3% 0;
-    padding: 0px 10px;
+    margin: 2% 2%;
 }
