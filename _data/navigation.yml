@@ -1,5 +1,7 @@
 - name: Resources
   link: /resources
+- name: Exercises
+  link: /exercises
 - name: Projects
   link: /projects
 - name: About

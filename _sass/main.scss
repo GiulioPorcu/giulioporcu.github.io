@@ -33,7 +33,7 @@ body {
     font-size: var(--default-font-size);
     margin: 2% 4%;
     background-image: radial-gradient(var(--body-background-pattern) 4px, transparent 4px), radial-gradient(var(--body-background-pattern) 5px, transparent 5px);
-    background-size: 12px 12px;
+    background-size: 11px 11px;
     background-position: 0 0, 6px 6px;
     background-color: var(--body-background-main);
 }
@@ -57,8 +57,8 @@ hr {
 .glass {
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7));
     backdrop-filter: blur(2px);
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 12px;
+    border: 1px solid rgba(80, 80, 80, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
@@ -118,7 +118,7 @@ hr {
 }
 
 .error-title {
-    margin: 30px 0;
+    margin: 1% 0;
     font-size: 4em;
 }
 

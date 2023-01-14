@@ -8,7 +8,7 @@ title: Giulio Porcu - Resources
   <hr />
   <ul>
   {% for post in site.posts %}
-      {% if post.category == "resources" %}
+      {% if post.category == "resource" %}
         <li>
             <h3>
              <a href="{{ post.url }}" >{{ post.title }}</a>

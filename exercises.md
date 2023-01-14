@@ -1,14 +1,14 @@
 ---
 layout: page
-permalink: /projects/
-title: Giulio Porcu - Projects
+permalink: /exercises/
+title: Giulio Porcu - Exercises
 ---
 <div>
-  <h2>All available project pages</h2>
+  <h2>All available exercises</h2>
   <hr />
   <ul>
   {% for post in site.posts %}
-      {% if post.category == "project" %}
+      {% if post.category == "exercise" %}
         <li>
             <h3>
                 <a href="{{ post.url }}" >{{ post.title }}</a>

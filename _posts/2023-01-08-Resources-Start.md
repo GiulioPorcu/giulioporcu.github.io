@@ -2,7 +2,7 @@
 layout: page
 title:  "Starting page for Resources"
 date:   2022-01-08 21:00:00 +0100
-category: resources
+category: resource
 ---
 
 # {{ page.title }}

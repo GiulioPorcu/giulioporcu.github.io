@@ -2,7 +2,7 @@
 layout: page
 title:  "Starting page for Projects"
 date:   2022-01-08 21:00:00 +0100
-category: projects
+category: project
 ---
 
 # {{ page.title }}
